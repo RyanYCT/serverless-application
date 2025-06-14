@@ -18,7 +18,7 @@ jobs:
     # Discover every directory that contains a lambda_function.py
     strategy:
       matrix:
-        dir: [testDatabaseConnection]
+        dir: [testDatabaseConnection, retrieveIdList]
       fail-fast: false
 
     steps:
